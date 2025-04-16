@@ -1,0 +1,23 @@
+# Ignore private key
+private_key.pem
+
+# Ignore macOS/Linux cruft
+.DS_Store
+
+# Ignore Windows hidden files
+Thumbs.db
+desktop.ini
+
+# Ignore system-specific temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore node/npm stuff if it creeps in
+node_modules/
+npm-debug.log*
+
+# Ignore Python cache if any Python gets used
+__pycache__/
+*.py[cod]
